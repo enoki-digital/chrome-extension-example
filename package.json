@@ -1,0 +1,29 @@
+{
+  "name": "chrome-extension-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "build": "npx webpack --watch",
+    "lint": "npx eslint src/ --fix",
+    "format": "npx prettier -w src/",
+    "ci": "npm run lint && npm run format"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@types/chrome": "0.0.268",
+    "@types/eslint__js": "^8.42.3",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.9.0",
+    "http-server": "^14.1.1",
+    "prettier": "^3.3.3",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^8.2.0",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  }
+}

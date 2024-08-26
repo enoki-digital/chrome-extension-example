@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "What is this?",
+  "description": "Asks Wikipedia about a highlighted word",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "dist/background.js"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": [
+    "*://*.wikipedia.org/*"
+  ]
+}

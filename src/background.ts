@@ -9,7 +9,7 @@ let language = "en";
                 const tabId = tab.id as number;
                 const injection = await chrome.scripting.executeScript({
                     target: {tabId},
-                    files: ["content.js"],
+                    files: ["dist/content.js"],
                 });
 
                 const word = injection[0].result as string;

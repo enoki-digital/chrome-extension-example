@@ -4,6 +4,7 @@ module.exports = {
     entry: {
         background: "./src/background.ts",
         popup: "./src/popup.ts",
+        content: "./src/content.ts",
     },
     mode: "development",
     devtool: "source-map",

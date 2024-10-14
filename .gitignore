@@ -131,3 +131,4 @@ dist
 
 .idea
 dist/js
+.DS_Store
